@@ -31,7 +31,7 @@ def get_numbers_ticket(min: int, max: int, quantity: int) -> list:
 # Testing block
 # ==========================================
 if __name__ == "__main__":
-    # Test case 1: Standard valid lottery parameters (e.g., 6 numbers from 1 to 49)
+    # Test case 1: Standard valid lottery parameters (e.g., 2 numbers from 1 to 49)
     lottery_numbers = get_numbers_ticket(6, 49, 2)
     print("Your lottery numbers:", lottery_numbers)
     
