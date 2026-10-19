@@ -39,6 +39,6 @@ if __name__ == "__main__":
     invalid_test = get_numbers_ticket(1, 5, 10)
     print("Invalid parameters test (should be empty):", invalid_test)
     
-    # Test case 3: Another valid test (5 numbers from 1 to 36)
+    # Test case 3: Another valid test (5 numbers from 10 to 20)
     another_draw = get_numbers_ticket(10, 20, 5)
     print("Another lottery draw:", another_draw)
